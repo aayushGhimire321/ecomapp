@@ -48,68 +48,44 @@ class _InitScreenState extends State<InitScreen> {
           BottomNavigationBarItem(
             icon: SvgPicture.asset(
               "assets/icons/Shop Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                inActiveIconColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             activeIcon: SvgPicture.asset(
               "assets/icons/Shop Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                kPrimaryColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             label: "Home",
           ),
           BottomNavigationBarItem(
             icon: SvgPicture.asset(
               "assets/icons/Heart Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                inActiveIconColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             activeIcon: SvgPicture.asset(
               "assets/icons/Heart Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                kPrimaryColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             label: "Fav",
           ),
           BottomNavigationBarItem(
             icon: SvgPicture.asset(
               "assets/icons/Chat bubble Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                inActiveIconColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             activeIcon: SvgPicture.asset(
               "assets/icons/Chat bubble Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                kPrimaryColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.red,
             ),
             label: "Chat",
           ),
           BottomNavigationBarItem(
             icon: SvgPicture.asset(
               "assets/icons/User Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                inActiveIconColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.black,
             ),
             activeIcon: SvgPicture.asset(
               "assets/icons/User Icon.svg",
-              colorFilter: const ColorFilter.mode(
-                kPrimaryColor,
-                BlendMode.srcIn,
-              ),
+              color: Colors.white,
             ),
             label: "Fav",
           ),
