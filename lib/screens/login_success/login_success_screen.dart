@@ -1,5 +1,6 @@
+import 'package:ecommerce_app/screens/init_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_app/screens/init_screen.dart';
+
 
 class LoginSuccessScreen extends StatelessWidget {
   static String routeName = "/login_success";
